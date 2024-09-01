@@ -444,9 +444,9 @@ Map the file into `/taiga-front/dist/config.py`.
 ## Configure an admin user
 
 ```bash
-$ docker compose up -d
+$ docker-compose up -d
 
-$ docker compose -f docker-compose.yml -f docker-compose-inits.yml run --rm taiga-manage createsuperuser
+$ docker-compose -f docker-compose.yml -f docker-compose-inits.yml run --rm taiga-manage createsuperuser
 ```
 
 ## Up and running
@@ -454,7 +454,7 @@ $ docker compose -f docker-compose.yml -f docker-compose-inits.yml run --rm taig
 Once everything has been installed, launch all the services and check the result:
 
 ```bash
-$ docker compose up -d
+$ docker-compose up -d
 ```
 
 ## Configure the proxy
